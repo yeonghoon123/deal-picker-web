@@ -1,0 +1,14 @@
+feat(frontend): ui/ux redesign, static export setup, and live api integration
+
+[빌드 환경 및 아키텍처 설정]
+- Next.js 완전 정적 파일 배포를 위한 `output: 'export'` 설정 및 이미지 최적화 옵션 조정
+- 환경 분리(development/production)를 위한 `.env` 템플릿 구성
+- 동적 라우팅 빌드 에러 해결 (`/deal/[id]/page.tsx`에 `generateStaticParams` 적용)
+
+[UI/UX 전면 개편 및 버그 수정]
+- 약관(`terms`) 및 개인정보처리방침(`privacy`) 페이지 전면 재디자인: 다크모드 강제 해제 및 애플 공식 홈페이지 스타일의 화이트 페이퍼(White-paper) 형태로 가독성 극대화
+- 소셜 로그인 성공 후 `Header.tsx`에서 로그인 상태를 감지하지 못하는 버그 수정 (동적 UI 렌더링 적용)
+
+[Deals 페이지 데이터 연동]
+- `page.tsx`에서 백엔드 API 연동을 통해 Malls(쇼핑몰) 필터 및 Today's Pick 데이터 동적 렌더링 적용
+- `DealCard.tsx`에서 불필요한 목업 스키마(`rating`, `reviewCount`) UI 제거 및 타입 스키마 정리

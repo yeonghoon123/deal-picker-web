@@ -1,0 +1,81 @@
+{
+  "header": {
+    "login": "로그인",
+    "logout": "로그아웃",
+    "welcome": "{{name}}님"
+  },
+  "footer": {
+    "rights": "© {{year}} Deal Picker. All rights reserved.",
+    "terms": "이용약관",
+    "privacy": "개인정보처리방침"
+  },
+  "login": {
+    "welcome": "환영합니다",
+    "desc": "계정에 로그인하여 더 많은 혜택을 누리세요.",
+    "kakao": "카카오로 로그인",
+    "google": "Google로 로그인",
+    "agreement": "로그인함으로써 귀하는 당사의 <0>이용약관</0> 및 <1>개인정보처리방침</1>에 동의하게 됩니다."
+  },
+  "deal": {
+    "closed": "마감됨",
+    "left": "{{time}} 남음",
+    "currency": "원"
+  },
+  "home": {
+    "tabs": {
+      "ranking": "종합 할인 랭킹",
+      "today": "투데이 Pick"
+    },
+    "allMalls": "전체",
+    "loading": "할인 상품을 불러오는 중...",
+    "end": "모든 랭킹을 확인했습니다."
+  },
+  "search": {
+    "loading": "상품을 불러오는 중...",
+    "result": "검색 결과 {{count}}건",
+    "noResult": "조건에 맞는 상품이 없습니다.",
+    "end": "모든 검색 결과를 확인했습니다."
+  },
+  "common": {
+    "searchPlaceholder": "어떤 상품을 찾으시나요?",
+    "affiliateDisclosure": "이 포스팅은 제휴 마케팅 활동의 일환으로, 구매 시 이에 따른 일정액의 수수료를 제공받을 수 있습니다."
+  },
+  "policy": {
+    "temporaryNotice": "영문 번역은 빠른 시일 내에 제공될 예정입니다."
+  },
+  "admin": {
+    "dashboard": "관리자 대시보드",
+    "users": {
+      "title": "유저 관리",
+      "desc": "플랫폼에 가입한 사용자를 관리합니다.",
+      "colName": "이름",
+      "colEmail": "이메일",
+      "colRole": "권한",
+      "colDate": "가입일",
+      "empty": "가입한 유저가 없습니다.",
+      "confirmRole": "해당 유저의 권한을 {{role}}(으)로 변경하시겠습니까?",
+      "roleFail": "권한 변경에 실패했습니다.",
+      "roleError": "권한 변경 중 오류가 발생했습니다."
+    },
+    "malls": {
+      "title": "쇼핑몰 관리",
+      "desc": "크롤링 및 제휴 대상 쇼핑몰을 관리합니다.",
+      "addBtn": "쇼핑몰 추가",
+      "colName": "쇼핑몰명",
+      "colCode": "식별 코드",
+      "colType": "API 연동 타입",
+      "colConfig": "API 설정 유무",
+      "colManage": "관리",
+      "empty": "등록된 쇼핑몰이 없습니다.",
+      "modalAdd": "쇼핑몰 추가",
+      "modalEdit": "쇼핑몰 수정",
+      "formName": "쇼핑몰명",
+      "formCode": "식별 코드",
+      "formType": "API 연동 타입",
+      "formConfig": "API 설정 (JSON)",
+      "formConfigHelp": "인증키나 엔드포인트 등 연동에 필요한 설정을 JSON 형식으로 입력하세요.",
+      "cancel": "취소",
+      "save": "저장"
+    }
+  }
+}

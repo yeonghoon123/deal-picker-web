@@ -1,0 +1,81 @@
+{
+  "header": {
+    "login": "Login",
+    "logout": "Logout",
+    "welcome": "Hi, {{name}}"
+  },
+  "footer": {
+    "rights": "© {{year}} Deal Picker. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "login": {
+    "welcome": "Welcome",
+    "desc": "Log in to your account to enjoy more benefits.",
+    "kakao": "Continue with Kakao",
+    "google": "Continue with Google",
+    "agreement": "By logging in, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
+  },
+  "deal": {
+    "closed": "Closed",
+    "left": "{{time}} left",
+    "currency": " KRW"
+  },
+  "home": {
+    "tabs": {
+      "ranking": "Top Deals Ranking",
+      "today": "Today's Pick"
+    },
+    "allMalls": "All",
+    "loading": "Loading deals...",
+    "end": "You've reached the end of the ranking."
+  },
+  "search": {
+    "loading": "Loading items...",
+    "result": "{{count}} results found",
+    "noResult": "No products found matching your criteria.",
+    "end": "You've reached the end of the search results."
+  },
+  "common": {
+    "searchPlaceholder": "What are you looking for?",
+    "affiliateDisclosure": "This post is part of affiliate marketing activities, and we may receive a commission for purchases made through these links."
+  },
+  "policy": {
+    "temporaryNotice": "English translation will be provided soon."
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "users": {
+      "title": "User Management",
+      "desc": "Manage users registered on the platform.",
+      "colName": "Name",
+      "colEmail": "Email",
+      "colRole": "Role",
+      "colDate": "Joined At",
+      "empty": "No users found.",
+      "confirmRole": "Are you sure you want to change this user role to {{role}}?",
+      "roleFail": "Failed to change role.",
+      "roleError": "An error occurred while changing role."
+    },
+    "malls": {
+      "title": "Mall Management",
+      "desc": "Manage crawling and affiliate target malls.",
+      "addBtn": "Add Mall",
+      "colName": "Mall Name",
+      "colCode": "Identifier Code",
+      "colType": "API Integration Type",
+      "colConfig": "API Config Exists",
+      "colManage": "Manage",
+      "empty": "No malls registered.",
+      "modalAdd": "Add Mall",
+      "modalEdit": "Edit Mall",
+      "formName": "Mall Name",
+      "formCode": "Identifier Code",
+      "formType": "API Integration Type",
+      "formConfig": "API Config (JSON)",
+      "formConfigHelp": "Enter the required settings for integration, such as auth keys or endpoints, in JSON format.",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  }
+}
